@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-family: 'Roboto', serif;
+    text-align: center;
+    padding: 6%;
+  }
+  
+  .flexContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+  }
+  
+  h2 {
+    font-family: 'Roboto', serif;
+    text-align: center;
+    padding: 5%;
+  }
+  
+  p {
+    font-family: 'Roboto', serif;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+  }
+
+  .gridDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2%;
+  }
+
+  video, iframe {
+    padding-bottom: 5%;
+  }
+
+  .centeredDiv {
+    margin: auto 0;
+  }
